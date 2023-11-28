@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_youxuan_com.example.youxuan_2850086000535452498.cer",
+          "storePassword": "0000001BD6ECD19ABF0A122573F142F8251520FB87EF2409E484DCEE31BAE35AFCC563DBB03CBC26DC2021",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B73C551D6BD55F7DADBD7EB741D2655FAA0D5C6E87468B051A40825E8CD1F009874EB708C0C8C26",
+          "profile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_youxuan_com.example.youxuan_2850086000535452498.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_youxuan_com.example.youxuan_2850086000535452498.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

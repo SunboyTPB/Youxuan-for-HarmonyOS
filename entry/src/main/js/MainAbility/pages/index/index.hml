@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="logo">
+        <text>
+            {{app}}
+        </text>
+        <text class="english">
+            {{englishapp}}
+        </text>
+    </div>
+    <div class="agreement">
+        <text>
+            {{title}}
+        </text>
+    </div>
+    <div class="buttons">
+        <button class="button quitbutton" onclick="quit">退出</button>
+        <button class="button" onclick="goHome">进入</button>
+    </div>
+</div>

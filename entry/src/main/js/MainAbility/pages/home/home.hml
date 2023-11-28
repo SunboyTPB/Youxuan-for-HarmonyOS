@@ -1,0 +1,97 @@
+<div class="container">
+    <div class="logo">
+        <text>
+            {{logo}}
+        </text>
+    </div>
+    <div class="topSearch">
+        <input />
+    </div>
+    <div class="shop">
+        <div class="product" onclick="product">
+            <div class="img">
+                <image src="media/watch4pro.png" class="image" />
+            </div>
+            <div class="content" onclick="product">
+                <div class="productName">
+                    <text>
+                        {{productName}}
+                    </text>
+                </div>
+                <div class="price">
+                    <text>
+                        {{price}}
+                    </text>
+                </div>
+            </div>
+        </div>
+        <div class="product" onclick="product">
+            <div class="img">
+                <image src="media/watch4pro.png" class="image" />
+            </div>
+            <div class="content" onclick="product">
+                <div class="productName">
+                    <text>
+                        {{productName}}
+                    </text>
+                </div>
+                <div class="price">
+                    <text>
+                        {{price}}
+                    </text>
+                </div>
+            </div>
+        </div>
+        <div class="product" onclick="product">
+            <div class="img">
+                <image src="media/watch4pro.png" class="image" />
+            </div>
+            <div class="content" onclick="product">
+                <div class="productName">
+                    <text>
+                        {{productName}}
+                    </text>
+                </div>
+                <div class="price">
+                    <text>
+                        {{price}}
+                    </text>
+                </div>
+            </div>
+        </div>
+        <div class="product" onclick="product">
+            <div class="img">
+                <image src="media/watch4pro.png" class="image" />
+            </div>
+            <div class="content" onclick="product">
+                <div class="productName">
+                    <text>
+                        {{productName}}
+                    </text>
+                </div>
+                <div class="price">
+                    <text>
+                        {{price}}
+                    </text>
+                </div>
+            </div>
+        </div>
+        <div class="product" onclick="product">
+            <div class="img">
+                <image src="media/watch4pro.png" class="image" />
+            </div>
+            <div class="content" onclick="product">
+                <div class="productName">
+                    <text>
+                        {{productName}}
+                    </text>
+                </div>
+                <div class="price">
+                    <text>
+                        {{price}}
+                    </text>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

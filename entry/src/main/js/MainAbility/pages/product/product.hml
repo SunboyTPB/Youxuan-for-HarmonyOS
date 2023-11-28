@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="image">
+        <image src="media/watch4pro.png" />
+    </div>
+    <div class="suggestPrice">
+        <text>
+            {{tuijianjia}}
+        </text>
+        <text class="suggestPriceText">
+            {{price}}
+        </text>
+    </div>
+    <div class="productNameAndPrice">
+        <text>
+            {{productName}}
+            {{taobaoname + taobao}}
+            {{jingdongname + jingdong}}
+            {{pinduoduoname + pinduoduo}}
+        </text>
+    </div>
+    <div class="more">
+        <text>{{detail}}</text>
+    </div>
+</div>
